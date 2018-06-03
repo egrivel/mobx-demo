@@ -1,0 +1,32 @@
+{
+  "name": "mobx-demo",
+  "version": "1.0.0",
+  "description": "Demo App for Flux Architecture",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Eric Grivel",
+  "repository": "https://github.com/egrivel/mobx-demo.git",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.10.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "mobx": "^4.3.0",
+    "mobx-react": "^5.1.2",
+    "mobx-state-tree": "^2.0.5",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}
